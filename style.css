@@ -1,0 +1,107 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f4f0ff;
+    background: linear-gradient(rgba(17, 19, 41, 0.65), rgba(17, 19, 41, 0.75)),
+                url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+header {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+h1 {
+    color: #c2a8ff;
+    font-size: 2.5rem;
+}
+
+main {
+    width: min(650px, 92%);
+    margin: auto;
+}
+
+form, #resultado {
+    background: #191b38;
+    border: 1px solid #6556a3;
+    border-radius: 15px;
+    padding: 24px;
+    margin-bottom: 25px;
+}
+
+label, legend {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #8475bd;
+    border-radius: 8px;
+    background: #101329;
+    color: white;
+
+}
+
+fieldset {
+    border: 1px solid #504875;
+    border-radius: 10px;
+    margin: 22px 0;
+    padding: 15px;
+}
+
+.opcao {
+    display: block;
+    padding: 9px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    accent-color: #bba5ff;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 8px;
+    background: #a28de2;
+    color: #17132d;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d0c3ff;
+}
+
+#resultado img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: 18px auto;
+}
+
+footer {
+    text-align: center;
+    color: #bba5ff;
+    padding: 15px;
+}
+input[type="radio"] {
+    accent-color: #6d2eda;
+}
